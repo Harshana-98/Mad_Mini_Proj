@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Mad Project</string>
+    <string name="card_no">Card Number</string>
+    <string name="month">MM</string>
+    <string name="Year">YY</string>
+    <string name="sec_code">Security code</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">LastName</string>
+    <string name="done">Done</string>
+    <string name="Default_add">JOHN NO 561, Abcd street , Batramulla , Malabe , 1800</string>
+    <string name="change_address">Change</string>
+    <string name="add_payment_details">ADD PAYMENT DETAILS</string>
+    <string name="paynow">PAY NOW</string>
+    <string name="con_name">Contact_Name</string>
+    <string name="mobile">Mobile</string>
+    <string name="Streetadd1">Street address</string>
+    <string name="streetadd2">Street address</string>
+    <string name="district">District</string>
+    <string name="postalcode">Zip/Postal Code</string>
+    <string name="Save">SAVE</string>
+    <string name="delivery_add_details">Delivery Address Details</string>
+    <string name="Delivery_add">Delivery Address</string>
+    <string name="add_new_add">ADD NEW ADDRESS</string>
+
+</resources>
