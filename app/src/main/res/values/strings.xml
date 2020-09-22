@@ -21,5 +21,6 @@
     <string name="delivery_add_details">Delivery Address Details</string>
     <string name="Delivery_add">Delivery Address</string>
     <string name="add_new_add">ADD NEW ADDRESS</string>
+    <string name="confirm">confirm</string>
 
 </resources>

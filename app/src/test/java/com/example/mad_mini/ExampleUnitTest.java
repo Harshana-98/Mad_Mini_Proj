@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.mad_mini;
 
 import org.junit.Test;
 

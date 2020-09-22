@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
-    tools:context=".MainActivity">
+    android:background="@drawable/new1"
+    tools:context="com.example.mad_mini.Address">
 
     <TextView
         android:id="@+id/textView2"
@@ -15,18 +15,19 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.028" />
+        app:layout_constraintVertical_bias="0.037" />
 
     <EditText
-        android:id="@+id/editTextPhone"
-        android:layout_width="289dp"
-        android:layout_height="48dp"
+        android:id="@+id/mobile"
+        android:layout_width="290dp"
+        android:layout_height="47dp"
         android:ems="10"
+        android:hint="Mobile"
         android:inputType="phone"
-        android:text="@string/mobile"
+        android:padding="10dp"
+        android:textColorHint="@color/cardview_dark_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -34,54 +35,48 @@
         app:layout_constraintVertical_bias="0.267" />
 
     <EditText
-        android:id="@+id/editTextTextPostalAddress4"
-        android:layout_width="289dp"
-        android:layout_height="48dp"
+        android:id="@+id/address"
+        android:layout_width="290dp"
+        android:layout_height="101dp"
         android:autoText="false"
         android:ems="10"
+        android:hint="Street address"
         android:inputType="textPostalAddress"
-        android:text="@string/streetadd2"
+        android:padding="10dp"
+        android:textColorHint="@color/cardview_dark_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.487" />
+        app:layout_constraintVertical_bias="0.402" />
 
     <EditText
-        android:id="@+id/editTextTextPostalAddress2"
-        android:layout_width="289dp"
-        android:layout_height="48dp"
+        android:id="@+id/district"
+        android:layout_width="290dp"
+        android:layout_height="47dp"
         android:autoText="false"
         android:ems="10"
+        android:hint="District"
         android:inputType="textPostalAddress"
-        android:text="@string/district"
+        android:padding="10dp"
+        android:textColorHint="@color/cardview_dark_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.6" />
+        app:layout_constraintVertical_bias="0.554" />
 
     <EditText
-        android:id="@+id/editTextTextPostalAddress"
-        android:layout_width="289dp"
-        android:layout_height="48dp"
-        android:autoText="false"
-        android:ems="10"
-        android:inputType="textPostalAddress"
-        android:text="@string/Streetadd1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.379" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/contact"
         android:layout_width="290dp"
         android:layout_height="47dp"
         android:ems="10"
+        android:hint="Contact Name"
         android:inputType="textPersonName"
-        android:text="@string/con_name"
+        android:padding="10dp"
+        android:textColorHint="@color/cardview_dark_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
@@ -90,56 +85,34 @@
         app:layout_constraintVertical_bias="0.165" />
 
     <EditText
-        android:id="@+id/editTextNumber"
+        android:id="@+id/postalcode"
         android:layout_width="289dp"
-        android:layout_height="48dp"
+        android:layout_height="47dp"
         android:ems="10"
+        android:hint="Zip/Postal code"
         android:inputType="number"
-        android:text="@string/postalcode"
+        android:padding="10dp"
+        android:textColorHint="@color/cardview_dark_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.714" />
-
-    <CheckBox
-        android:id="@+id/checkBox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.839"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.838" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="254dp"
-        android:layout_height="32dp"
-        android:text="Set as default delivery address"
-        android:textAlignment="viewStart"
-        android:textSize="17sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.388"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.838" />
+        app:layout_constraintVertical_bias="0.666" />
 
     <Button
-        android:id="@+id/savebtn"
+        android:id="@+id/confirmbtn"
         android:layout_width="293dp"
-        android:layout_height="42dp"
-        android:text="@string/Save"
+        android:layout_height="47dp"
+        android:text="@string/confirm"
         android:textAlignment="center"
-        android:textColor="#000000"
+        android:textColor="@android:color/background_dark"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.943" />
+        app:layout_constraintVertical_bias="0.909" />
 
     <View
         android:id="@+id/divider2"

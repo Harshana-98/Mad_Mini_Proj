@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "296380438568",
+    "firebase_url": "https://mad-mini.firebaseio.com",
+    "project_id": "mad-mini",
+    "storage_bucket": "mad-mini.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296380438568:android:9ff472ba0f424e5e577d1d",
+        "android_client_info": {
+          "package_name": "com.example.mad_mini"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "296380438568-44t5jrn7iglpvhhcdhlrtn192nd7obq9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mad_mini",
+            "certificate_hash": "f46b8948de75b8d293965028625edd0dec5d6c0e"
+          }
+        },
+        {
+          "client_id": "296380438568-1dvrjmnsafhq93qhm5hu1h6ijki1vh95.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3tZHu3upNOJZbhl0WQaS150FAHsITab8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "296380438568-1dvrjmnsafhq93qhm5hu1h6ijki1vh95.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
